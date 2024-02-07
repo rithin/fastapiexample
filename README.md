@@ -5,6 +5,15 @@
 pip install fastapi[all] uvicorn sqlalchemy databases[postgresql] python-dotenv
 pip install psycopg2-binary
 
+## database connection  -Postgres
+
+#DATABASE_URL = "postgresql+psycopg2://your_postgres_username:your_postgres_password@your_postgres_host:your_postgres_port/your_postgres_db"
+
+your_postgres_host will be localhost
+
+your_postgres_port will be default postgres port mostly 5432
+
+
 ## packages used for:
 Here's what each package is used for:
 
